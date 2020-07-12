@@ -1,0 +1,71 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+	color: darkred;
+	background-color: #FFFDDA;
+}
+
+.container {
+  width: 100%;
+  font-family:  Tahoma, Geneva, sans-serif;
+}
+
+section {
+  padding: 30px 10px 10px 10px;
+  margin: 2% 1% 2% 1%;
+  float: left;
+  position: relative;
+  background-color: #FFFDDA;
+}
+
+.titulo {
+  position: absolute;
+  top:0;
+  right:0;
+  width:30%;
+  border-top: none;
+  border-right: none;
+  color: azure;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+}
+
+.chine {
+  background-color: #2980B9;
+}
+
+.hin {
+  background-color: #C14543;
+  color: white;
+}
+
+.ital {
+  background-color: #FCAA5D;
+}
+/********** DESKTOP devices only **********/
+@media (min-width: 992px) {
+  .desktop {
+	width: 25.00%;
+  }
+}
+/********** TABLET devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet1 {
+	width: 46.00%;
+  }
+  .tablet2 {
+	width: 96.00%;
+  }
+}
+/********** MOBILE devices only **********/
+@media (max-width: 767px) {
+  .mobile {
+	width: 96.00%;
+  }
+}
